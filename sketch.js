@@ -18,7 +18,7 @@ function draw() {
   noStroke()
   span = 5+map(mouseX,width,0,20)
   push()
-  translate(width/2-capture_width/2, height/2-capture_height/2) //把原點移到(width/2-160, height/2-120)
+  translate(width/2-capture_width/2, height/2-capture_heigh/2) //把原點移到(width/2-160, height/2-120)
   image(capture,0,0) 
   for(var x=0;x<captureGraphics.width;x=x+span){
     for(var y=0;y<captureGraphics.height;y=y+span){
