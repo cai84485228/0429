@@ -9,4 +9,5 @@ function draw() {
   push()
   translate(width/2-160, height/2-120)
   image(capture,0,0)
+  pop()
 }
